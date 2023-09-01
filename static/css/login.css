@@ -1,17 +1,28 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f2f1f9;
     margin: 0;
     padding: 0;
+    
+    background: linear-gradient(rgba(37, 5, 5, 0.5),rgba(26, 11, 11, 0.5)),url(/static/css/music.jpeg.jpeg);
+    max-width: 100%;
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100% ;
+    
+     
 }
 
 form {
     margin: auto;
-    width: 300px;
+    width: 400px;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgb(244, 94, 179);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height:  100x;
 }
 
 table {
