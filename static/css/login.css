@@ -4,13 +4,14 @@ body {
     margin: 0;
     padding: 0;
     
-    background: linear-gradient(rgba(37, 5, 5, 0.5),rgba(26, 11, 11, 0.5)),url(/static/css/music.jpeg.jpeg);
+    background: url(/static/css/music.jpeg.jpeg);
     max-width: 100%;
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
     height: 100%;
     width: 100% ;
+    background-attachment: fixed;
     
      
 }

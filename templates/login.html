@@ -1,41 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>REGISTER FORM</title>
-    <link rel="stylesheet" href= "/static/css/login.css">
-    </head>
-    <body>
-        <form method="POST">
-            <table>   
-                <tr>  
-                    <td>Name:</td>
-                    <td> 
-                        <input type="text" placeholder="name" name="username" id="username">
-                    </td>
-                </tr>
-                <tr>
-                    <td>password:</td>
-                    <td>
-                        <input type="password" placeholder="password" name="password" id="password">
-                    </td>
-                </tr>
-                
-                
-                
-                <tr>
-                    <td>
-                        <input type="Submit" value="Login"  name="">
-                    </td>
-                </tr>
-            </table>
-        </form>
-    </body>
+    <link rel="stylesheet" href="/static/css/login.css">
+    <style>
+        /* Add CSS styles for responsiveness */
+        table {
+            width: 100%;
+        }
 
+        td {
+            padding: 10px;
+        }
 
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
 
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
 
-
-
-
+        @media (min-width: 768px) {
+            /* Adjust styles for screens with a minimum width of 768px */
+            table {
+                max-width: 400px; /* Limit the table width for larger screens */
+                margin: 0 auto; /* Center the table horizontally */
+            }
+        }
+    </style>
+</head>
+<body>
+    <form method="POST">
+        <table>   
+            <tr>  
+                <td>Name:</td>
+                <td> 
+                    <input type="text" placeholder="name" name="username" id="username">
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" placeholder="password" name="password" id="password">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <input type="submit" value="Login"  name="">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
 </html>
